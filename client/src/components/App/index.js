@@ -7,6 +7,7 @@ import gamesList from '../../data/games';
 import charactersList from '../../data/characters-full';
 
 import Header from '../Header';
+import Games from '../Games';
 
 // == Composant
 class App extends React.Component {
@@ -62,6 +63,9 @@ class App extends React.Component {
                 chargeSearch={this.setSearch}
                 search={search}
             />
+            <div className='app-content'>
+              <Games list={filteredGames} changeGame={this.changeGame} />
+            </div>
         </div>
     )
     }
