@@ -8,6 +8,7 @@ import charactersList from '../../data/characters-full';
 
 import Header from '../Header';
 import Games from '../Games';
+import Characters from '../Characters';
 
 // == Composant
 class App extends React.Component {
@@ -60,11 +61,12 @@ class App extends React.Component {
         <div className='app'>
             <Header
                 count={filteredGames.length}
-                chargeSearch={this.setSearch}
+                changeSearch={this.setSearch}
                 search={search}
             />
             <div className='app-content'>
               <Games list={filteredGames} changeGame={this.changeGame} />
+              <Characters list={filteredCharacters} />
             </div>
         </div>
     )
