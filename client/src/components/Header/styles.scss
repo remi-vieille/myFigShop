@@ -1,0 +1,18 @@
+.header {
+  font-family: 'Press Start 2P', sans-serif;
+  text-align: center;
+  &-title {
+    color: #e60012;
+    font-size: 2em;
+  }
+  &-baseline {
+    margin: 1em 0;
+  }
+  &-search {
+    font-family: 'Press Start 2P', sans-serif;
+    border: none;
+    border-bottom: 1px solid #e60012;
+    text-align: center;
+    padding: 1rem;
+  }
+}

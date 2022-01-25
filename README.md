@@ -1,6 +1,6 @@
 # myFigShop
 
-## A nintendu figurine shop
+## A nintendu figurine shop using react classes
 
 </br>
 
